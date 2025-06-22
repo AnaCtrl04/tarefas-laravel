@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>gerenciador de Tarefas</title>
+    <title>Gerenciador de Tarefas</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100 text-gray-800 font-sans">
