@@ -35,7 +35,7 @@
     <div class="mb-4">
         <label class="block font-semibold">Status</label>
         <select name="status" class="w-full border rounded px-3 py-2">
-            @foreach(['pendente', 'em_andamento', 'concluida'] as $status)
+            @foreach(['pendente', 'concluida'] as $status)
                 <option value="{{ $status }}"
                     {{ (old('status', $tarefa->status ?? '') == $status) ? 'selected' : '' }}>
                     {{ ucfirst(str_replace('_', ' ', $status)) }}
